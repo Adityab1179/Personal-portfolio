@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.details-about-languages {
+    padding-left: 10px;
+    color: #3d4242;
+
+}
+
+.logos {
+    padding-left: 100px;
+}
+
+.post-images {
+    padding-left: 100px;
+    width: 800px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0a0a0a;
+}
+
+.know-more{
+    background-color: rgb(226, 230, 231);
+    padding: 30px 0;
+}
+.headings {
+    padding-left: 50px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.aboutus{
+    width: 80%;
+    height: 60vh;
+    margin: auto; 
+}
+.about{
+    display: flex;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+.cols h3 {
+    color: #015b75;
+    font-size: 5vmin;
+    font-family: sans-serif;
+}
+input,
+textarea {   
+    text-align: center;
+}
+textarea, input{
+    background: rgb(208, 234, 241);
+}
+.about img{
+    width: 50vh;
+    height: 60vh;
+    border: 2px black;
+    box-shadow: 1rem 1rem 2rem rgb(40, 71, 50);
+}
+.aboutus h1{
+    border-bottom: 2px solid green;
+    font-size: 4.5vh;
+}
+.aboutus p{
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+form {
+    width: 60vw;
+    max-width: 700px;
+    min-width: 400px;
+    background-color: powderblue;
+    color: black;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #1a0000;
+    font-size: 16px;
+}
+
+input {
+    width: 100%
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.navbar {
+    text-align: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: #0c91af;
+}
+.navbar li{
+    color: #0a0a0a;
+    padding-left: 20px;
+}
+
+.sharebtn {
+    background-color: red;
+    color: #ffffff;
+    border-radius: 50px;
+    border-color: white;
+    font-weight: 400;
+    width: 100%;
+    display: block;
+}
+
+height:auto,
+h1,
+h2 {
+    margin: 30px;
+}
+
+.ordered list {
+    text-align: justify;
+}
+
+.test {
+    position: relative;
+}
+
+.test img {
+    height: 800px;
+    width: 100%;
+}
+
+.text {
+    font-size: 25px;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+p,
+ul,
+ol {
+    color: black;
+    padding-right: 30%;
+    font-family: Mulish, sans-serif;
+    ;
+    padding-left: 100px;
+}
+
+.btnbutton-primary {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 570px;
+}
+
+.downloadlink {
+    text-align: center;
+}
+
+.post-header-meta-container img {
+    width: 70px;
+    display: block;
+}
+a:link {
+color:blue;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: orange;
+}
+
+.topscroll {
+    padding-left: 100px;
+}
+
+.sideimage {
+    display: flex;
+}
+
+.image {
+    padding: 100px;
+    flex: 50%;
+}
+.footer {
+    width: 100%;    
+    padding: 20px 20px;
+    padding-left: 200px;
+    margin: 10;
+    background: rgb(191, 226, 236);
+    text-align: center;
+}
+
+.footer p {
+    color: rgb(6, 11, 14);
+    text-align: center;    
+}
